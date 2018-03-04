@@ -1,0 +1,600 @@
+<resources>
+    <string name="app_name">MyApplicationfragmentdemo</string>
+    <string name="dashboard">DashBoard</string>
+    <string name="fargmentones">FargmentOne</string>
+    <string name="fargmenttwos">Fargmenttwo</string>
+    <string name="fargmentthrees">Fargmentthree</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="spalshname">RRajeshExports.com</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="true_false">True</string>
+    <string name="false_true">False</string>
+    <string name="ok">OK</string>
+    <string name="done">Done</string>
+    <string name="next">Next</string>
+    <string name="went_wrong">Something Went Wrong While Fetching Data!!</string>
+    <string name="no_internet">Check Your Internet Connection.!!</string>
+    <string name="cancel">Cancel</string>
+    <string name="stonidlist">Stone ID1,Stone ID2</string>
+    <string name="certiid">Cert No1,Cert No2</string>
+    <string name="CertNo">Cert No.</string>
+    <string name="stonid">Stone ID</string>
+    <string name="preview">Preview</string>
+    <string name="updateapp">New version is Available. Please update Application.</string>
+    <string name="remindlater">Remind Later</string>
+    <string name="Update">Update Now</string>
+    <string name="appvesion">Appversion</string>
+
+
+    <!--Login Activity-->
+    <string name="loginto_your_account">Login to Your Account</string>
+    <string name="sign_in_with_your_account">Sign in with your Account</string>
+    <string name="hint_email">Enter Email ID</string>
+    <string name="hint_sec_email">Secondary Email ID</string>
+    <string name="hintloginname">Enter Login Name</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="forgot_password">Forgot Password ? </string>
+    <string name="new_registration">Register Here</string>
+    <string name="email_validation">Enter Valid Email-Id</string>
+    <string name="email_id2">Email Id</string>
+    <string name="empty_loginid">Enter Login-Id</string>
+    <string name="empty_password">Enter Password</string>
+    <string name="loading">Loading…</string>
+    <string name="username">Username</string>
+
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="call">Call</string>
+    <string name="submit">Submit</string>
+    <string name="guestlogin">Guest Login</string>
+
+    <string name="logout_message">Are you sure you want to Logout?</string>
+
+    <string name="call_message">Are You sure you want to Call?</string>
+    <!--Dialog -->
+    <string name="enter_email">Enter Your Email-Id</string>
+
+
+    <!--Registration Activity-->
+    <string name="registration">Registration</string>
+    <string name="account_details">Account Details</string>
+    <string name="user_name">User Name *</string>
+    <string name="user_name1">User Name</string>
+    <string name="password">Password *</string>
+    <string name="dbusername">DB Username</string>
+    <string name="dbname">DB name</string>
+    <string name="password1">Password</string>
+    <string name="c_password">Confirm Password *</string>
+    <string name="first_name">First Name *</string>
+    <string name="first_name1">First Name</string>
+    <string name="last_name">Last Name *</string>
+    <string name="last_name1">Last Name</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="dob">Date of Birth *</string>
+    <string name="aod">Anniversary Date</string>
+    <string name="company_name">Company Name *</string>
+    <string name="company_name1">Company Name</string>
+    <string name="designation">Designation</string>
+    <string name="email_id">Email ID *</string>
+    <string name="marital_status">Marital Status:</string>
+    <string name="secondary_email">Secondary Email</string>
+    <string name="Skypeid">Skype Id</string>
+    <string name="gender">Gender *</string>
+    <string name="photo_proof">Photo Proof</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other_details">Other Details</string>
+    <string name="address2">Address *</string>
+    <string name="address">Address</string>
+    <string name="countryname">Country *</string>
+    <string name="country1">Country</string>
+    <string name="state">State </string>
+    <string name="state1">State</string>
+    <string name="city">City *</string>
+    <string name="city1">City</string>
+    <string name="zip_code1">Zip Code *</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="tcode">Country Code</string>
+    <string name="ccode">City Code</string>
+    <string name="telephone">Telephone *</string>
+    <string name="telephone1">Telephone</string>
+    <string name="fax1">Fax</string>
+    <string name="mobile_no">Mobile No *</string>
+    <string name="mobile_no1">Mobile No</string>
+    <string name="business_type">Business Type *</string>
+    <string name="business_type1">Business Type</string>
+    <string name="how_do_you_know_us">How Do You Know Us</string>
+    <string name="business_proof">Business Proof</string>
+    <string name="inf">Image Not Found !!</string>
+    <string name="username_validation">Enter User Name</string>
+    <string name="select_country">Select Country</string>
+    <string name="name_hint_error">Enter Name</string>
+    <string name="company_hint_error">Enter Company Name</string>
+    <string name="address_hint_error">Enter Address</string>
+    <string name="phone_valid">Minimum 7 And Maximun 15 Digits</string>
+    <string name="phone_hint_error">Enter Phone No.</string>
+    <string name="email_hint_error">Enter Email</string>
+
+    <!--Change Password-->
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="old_password_error">Enter Old Password</string>
+    <string name="password_not_match">Password Does Not Match</string>
+    <string name="password_change_success">Password Changed Succesfully.</string>
+
+
+    <!--Dashboard Activity-->
+    <string name="welcome">Welcome to R.Rajesh Exports</string>
+
+    <string name="submits">SUBMIT</string>
+    <string name="ssearch">SPECIFIC SEARCH</string>
+    <string name="Triple_ex">Tripal EX</string>
+    <string name="fancy_stone">Fancy Stone</string>
+    <string name="fcolorstone">Fancy Color Stone</string>
+    <string name="my_cofirmation">MY CONFIRMATION</string>
+    <string name="my_purchase">My Purchase</string>
+    <string name="saved_search">SAVED SEARCH</string>
+    <string name="ExExEx">Ex-Ex-Ex</string>
+    <string name="Dealofthday">Deal of the Day </string>
+
+    <string name="change_password">Change Password</string>
+    <string name="my_profile">MY PROFILE</string>
+    <string name="twin_Stones">Matching Pairs</string>
+    <string name="my_cart">My Cart</string>
+    <string name="deal_of_day">Deal of The Day</string>
+
+    <string name="dealofthaday">DEAL OF THE DAY</string>
+    <string name="newarrival">New Arrival</string>
+    <string name="mypurchased">My purchased</string>
+    <string name="todaystock">TODAY STOCK</string>
+    <string name="wishlist">My Wish List</string>
+
+    <string name="changepass_font">E</string>
+    <string name="spefic_serach_font">e</string>
+    <string name="wishlist_font">g</string>
+    <string name="newarrival_font">j</string>
+    <string name="fancystone_font">l</string>
+    <string name="mypurchase_font">k</string>
+    <string name="todaystock_font">i</string>
+    <string name="dealofday_font">m</string>
+    <string name="my_confirmation_font">T</string>
+    <string name="mycart_font">T</string>
+    <string name="saved_search_font">c</string>
+    <string name="my_profile_font">U</string>
+    <!--<string name="ftwins_stone">h</string>-->
+    <string name="twins_stone_font">o</string>
+    <string name="trippleEx_font">h</string>
+    <string name="webicon_font">q</string>
+    <string name="dailyStockExcel">DAILY STOCK EXCEL</string>
+    <string name="rrajeshexport.com">www.rrajeshexports.com</string>
+    <string name="Comapre">Compare Stone</string>
+
+
+    <!-- Search List-->
+    <string name="search_name">Search Name</string>
+    <string name="list_search_name">Search Name</string>
+
+
+    <!--Diamond Details-->
+
+    <string name="matchpair_details">Matching Pairs Details</string>
+    <string name="diamond_details">Diamond Details</string>
+    <string name="Stone_details">Stone Details</string>
+    <string name="inclusion_details">Inclusion Details</string>
+    <string name="parameter_details">Parameter Details</string>
+    <string name="image">Image</string>
+    <string name="movie">Movie</string>
+    <string name="verify_certificate">Verify Certi</string>
+    <string name="color">Color</string>
+    <string name="certno">Cert.No</string>
+    <string name="shape">Shape</string>
+    <string name="t_inc">T.Inc</string>
+    <string name="t_open">T.Open</string>
+    <string name="t_side_inc">T.Side Inc</string>
+    <string name="s_open">S.Open</string>
+    <string name="s_inc">S.Inc</string>
+    <string name="extra_facet">Extra Facet</string>
+    <string name="t_black">T.Black</string>
+    <string name="s_black">S.Black</string>
+    <string name="culet">Culet</string>
+    <string name="t_s_black">T.Side Black</string>
+    <string name="natural">Natural</string>
+    <string name="shade">Shade</string>
+    <string name="cr_angle">Cr.Angle</string>
+    <string name="table_percent">Table(%)</string>
+    <string name="cr_height">Cr.Height</string>
+    <string name="depth_percent">Depth(%)</string>
+    <string name="pv_angle">Pv.Angle</string>
+    <string name="pv_height">Pv.Height</string>
+    <string name="girdle_percent">Girdle(%)</string>
+    <string name="star_len">Star Len</string>
+    <string name="type_2a">Type 2A</string>
+    <string name="law_half">Low Half</string>
+    <string name="comment">NG Grader Comment</string>
+    <string name="Comment">REPORT COMMENT</string>
+    <string name="key_to_symbol">Key To Symbol</string>
+    <string name="report_comment">Report Commentl</string>
+    <string name="rate">Rate($)</string>
+    <string name="amount">Amt($)</string>
+    <string name="pricedetail">Price Details</string>
+    <string name="pavopen">Pv.Open</string>
+    <string name="crnopen">Crn.Open</string>
+    <string name="tblopen">Tbl.Open</string>
+
+
+    <!--Diamond Search-->
+    <string name="diamond_search">Diamond Search</string>
+    <string name="matchpairsearch">Matching Pairs Search</string>
+    <string name="newsearch">New Search</string>
+    <string name="all_shapes_font">A</string>
+    <string name="round_font">b</string>
+    <string name="princess_font">X</string>
+    <string name="pear_font">W</string>
+    <string name="oval_font">V</string>
+    <string name="marquise_font">N</string>
+    <string name="heart_font">J</string>
+    <string name="emerald_font">I</string>
+    <string name="sq_emerald_font">l</string>
+    <string name="cusion_font">H</string>
+    <string name="radiant_font">Z</string>
+    <string name="asscher_font">f</string>
+    <string name="sq_radiant_font">c</string>
+    <string name="reset">RESET</string>
+    <string name="search">Specific Search</string>
+    <string name="savesearch">SAVE SEARCH</string>
+    <string name="all_shapes">All</string>
+    <string name="round">Round</string>
+    <string name="princess">Princess</string>
+    <string name="pear">Pear</string>
+    <string name="oval">Oval</string>
+    <string name="marquise">Marquise</string>
+    <string name="heart">Heart</string>
+    <string name="emerald">Emerald</string>
+    <string name="sq_emerald">Sq.Emerald</string>
+    <string name="cushion">Cushion</string>
+    <string name="radiant">Radiant</string>
+    <string name="asscher">Asscher</string>
+    <string name="other">Other</string>
+    <string name="sq_radiant">Sq.Radiant</string>
+
+    <string name="size">Select Size</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="from_to">From_To</string>
+
+    <string name="price">Rate/Ct($)</string>
+    <string name="totalamt">AMOUNT ($)</string>
+
+    <string name="carat">Carat</string>
+    <string name="white_color">White</string>
+    <string name="fancy_color">Fancy Color</string>
+    <string name="overtone">Overtone</string>
+    <string name="intensity">Intensity</string>
+    <string name="clarity">Clarity</string>
+    <string name="stone_id">Stone ID</string>
+    <string name="enter_stone_id">Stone Id1,Stone Id2</string>
+    <string name="flour">Flour</string>
+    <string name="no_bgm">NO BGM</string>
+    <string name="no_bgm1">No BGM?</string>
+    <string name="cut">Cut</string>
+    <string name="polish">Polish</string>
+    <string name="sym">Sym</string>
+    <string name="symmetry">Symmetry</string>
+    <string name="flourscence">Fluorescence</string>
+    <string name="fluor_color">fluorcolor</string>
+    <string name="lab">Lab</string>
+    <string name="certificate_id">Certificate Id</string>
+    <string name="certi_no">Certificate No</string>
+
+    <string name="enter_certificate_id">Enter Certificate No</string>
+    <string name="ratio">Ratio</string>
+    <string name="depth">Depth</string>
+    <string name="table">Table%</string>
+    <string name="discount">Discount</string>
+    <string name="diameter">Diameter(mm)</string>
+    <string name="location">Location</string>
+    <string name="country">Country</string>
+    <string name="girdle">Girdle</string>
+    <string name="p_angle">P.Angle</string>
+    <string name="c_angle">C.Angle</string>
+    <string name="p_height">P.Height (%)</string>
+    <string name="c_height">C.Height (%)</string>
+    <string name="t_depth">T.Depth (%)</string>
+    <string name="ha">H &amp; A</string>
+    <string name="flocolor">Fluor Color</string>
+    <string name="eye_clean">Eye Clean</string>
+    <string name="milky">Milky</string>
+    <string name="luster">Luster</string>
+
+    <string name="l_half">L.Half</string>
+    <string name="s_length">S.Length(%)</string>
+    <string name="measure">Measure</string>
+    <string name="from_height">From Height</string>
+    <string name="to_height">To Height</string>
+    <string name="from_length">From Length</string>
+    <string name="to_length">To length</string>
+    <string name="from_width">From Width</string>
+    <string name="to_width">To Width</string>
+    <string name="carat_from_to_error">Enter Carat-From And Carat-To</string>
+    <string name="carat_from_error">Enter Carat-From</string>
+    <string name="carat_to_error">Enter Carat-To</string>
+    <string name="valid_number_error">Enter Valid Numbers</string>
+    <string name="shapes_error">Select Atleast One Shape</string>
+    <string name="number_format_error">Enter Valid Number</string>
+    <string name="measure_from_height_error">Enter From Height</string>
+    <string name="measure_to_height_error">Enter To Height</string>
+    <string name="measure_from_length_error">Enter From Length</string>
+    <string name="measure_to_length_error">Enter To Length</string>
+    <string name="measure_from_width_error">Enter From Width</string>
+    <string name="measure_to_width_error">Enter To Width</string>
+    <string name="stone_id_or_certificate_id">Enter Either Stone-Id Or Certificate-Id.</string>
+    <string name="enterdtonidorcerti">Enter either Stone id or Certificate number</string>
+    <string name="diameter_from">Enter Diameter From</string>
+    <string name="diameter_to">Enter Diameter To</string>
+
+    <string name="price_from">Enter Price From</string>
+    <string name="price_to">Enter Price To</string>
+
+    <string name="disc_form">Enter Discount From</string>
+    <string name="disc_to">Enter Discount To</string>
+
+    <string name="tdepth_form">Enter T.Depth From</string>
+    <string name="tdepth_to">Enter T.Depth To</string>
+
+    <string name="tbl_form">Enter Table From</string>
+    <string name="tbl_to">Enter Table To</string>
+
+    <string name="length_form">Enter Length From</string>
+    <string name="length_to">Enter Length To</string>
+
+    <string name="width_form">Enter Width From</string>
+    <string name="width_to">Enter Width To</string>
+
+    <string name="ratio_form">Enter Ratio From</string>
+    <string name="ratio_to">Enter Ratio To</string>
+
+    <string name="cangle_form">Enter C.Angle From</string>
+    <string name="cangle_to">Enter C.Angle To</string>
+
+    <string name="pangle_form">Enter P.Angle From</string>
+    <string name="pangle_to">Enter P.Angle To</string>
+
+
+    <!--Diamond Search Result-->
+    <string name="twin_diamonds">Twin Diamonds</string>
+    <string name="search_result">Result</string>
+    <string name="myCart">My Cart</string>
+    <string name="myConfirm">ConfirmStone</string>
+    <string name="fancystonere">FancyStone</string>
+    <string name="trippleexre">TrippleEx Stone</string>
+    <string name="twindim">Twin Stone</string>
+    <string name="newarrivstones">New Arrival</string>
+    <string name="wishstonelist">Wish List</string>
+    <string name="certificate">Certificate</string>
+    <string name="confirm_font">w</string>
+    <string name="add_to_cart_font">T</string>
+    <string name="remove_from_cart_font">y</string>
+    <string name="email_font">v</string>
+    <string name="print_font">s</string>
+    <string name="pcs">Pcs</string>
+    <string name="t_cts">T.Cts</string>
+    <string name="a_disc">Avg.Disc%</string>
+    <string name="ct_rate">Ct.Rate</string>
+    <string name="t_amt">T.Amt</string>
+    <string name="avg_rap">Avg.Rap</string>
+    <string name="cash_disc">Cash Disc</string>
+    <string name="online_disc">Online Disc</string>
+    <string name="f_avg_disc">F.Avg. Disc</string>
+    <string name="f_ct_rate">F.Ct Rate</string>
+    <string name="pay_amt">Pay. Amt. </string>
+    <string name="all">ALL</string>
+    <string name="rap">Rap : </string>
+    <string name="off">Off : </string>
+    <string name="d_ct">$/Ct : </string>
+    <string name="amt">Amt : </string>
+    <string name="dis_select1">N</string>
+    <string name="dis_select">O</string>
+    <string name="select">S</string>
+    <string name="pdf">Generate PDF</string>
+    <string name="Stones">Stones</string>
+    <string name="Carat">Carat</string>
+    <string name="Avg.Rap">Rap($)</string>
+    <string name="A.Disc">A.Disc :</string>
+    <string name="Avg$Cts$">$/Cts</string>
+    <string name="Tot.amt">Tot.Amt($)</string>
+    <string name="Web.des">Web Discount</string>
+    <string name="NetPayble">Net Payable($)</string>
+    <string name="Dis">Disc% : </string>
+    <string name="Image_not_available">Image Not Available.</string>
+    <string name="Video_not_available">Video Not Available.</string>
+    <string name="certi_not_available">Certificate Not Available.</string>
+    <string name="Addcart_font">a</string>
+    <string name="img_font">c</string>
+    <string name="video_font">p</string>
+    <string name="importexcell_font">j</string>
+    <string name="emails_font">2</string>
+    <string name="viewcart_font">U</string>
+    <string name="removecart_font">t</string>
+    <string name="compaerstone_font">X</string>
+    <string name="logout">m</string>
+    <string name="Selectstone">Selected Stone</string>
+    <string name="stonefound">Stone found</string>
+
+    <string name="remove">REMOVE</string>
+    <string name="addcart">ADD TO CART</string>
+    <string name="cart">CART</string>
+    <string name="compstone">COMPARE</string>
+    <string name="confstone">CONFIRM</string>
+    <string name="buy">BUY</string>
+    <string name="export_ex">EXPORT EXL</string>
+    <string name="email">MAIL</string>
+    <string name="print">PRINT</string>
+    <string name="view">VIEW</string>
+    <string name="shar">SHARE</string>
+    <string name="no_open_pdf_app_available">No Application Available That can Open This File.</string>
+
+    <string name="Search_type">Simaple Search</string>
+    <string name="Quicksearch"></string>
+    <string name="result">Result</string>
+    <string name="diamond_selection_error">Select Atleast One Diamond To Confirm.</string>
+    <string name="diamond_selection_errorforrremovecart">Select Atleast One Diamond To Remove.</string>
+    <string name="diamondcom_selection_error">Select Atleast two Diamond To Compare.</string>
+    <string name="diamondcomone_selection_error">Select only two Diamond for Compare.</string>
+
+
+    <string name="share_font">a</string>
+
+    <!--My Purchased-->
+    <string name="mypurchaedtitle">My Purchased </string>
+    <string name="Inv.No">Inv.No</string>
+    <string name="Date">Date</string>
+    <string name="Amt">Amt</string>
+    <string name="$ct">$/Ct</string>
+
+
+    <!--Saved Search-->
+    <string name="savesearchtitle">Saved Search</string>
+    <string name="searchhistory">Search History</string>
+    <string name="hint_saved_search">Enter Search Name</string>
+    <string name="alert_saved_search">Saved search name is required.</string>
+    <string name="title_saved_search">Saved Search Name</string>
+    <string name="delete_success">Deleted Successfully</string>
+    <string name="no_saved_search">You have no saved search!</string>
+
+
+    <!--Media View-->
+    <string name="help">Help</string>
+    <string name="media_view">Media View</string>
+    <string name="denied_permission">You denied the permission to access SD Card.</string>
+    <string name="save_successfully">Image Saved Successfully.</string>
+    <string name="share">Share</string>
+    <string name="pdfsave">Document Saved Successfully.</string>
+    <string name="download">Download</string>
+    <string name="exist_file">File Already Exists..!</string>
+
+
+    <!--Response messages-->
+
+    <string name="modify">Modify</string>
+    <string name="wow">Wow!</string>
+    <string name="sorry">Sorry!</string>
+    <string name="nice_selection">Nice Selection, We have more than 500 Stones falling in your Search Criteria. We request You to Narrow Your Search &amp; Escape Confusion.</string>
+    <string name="no_basket">Currently, There is no stone in your Cart.</string>
+    <string name="no_wish_list">Currently, There is no stone in your Wish List.</string>
+    <string name="no_new_list">Currently, There is no any New Arrival Stone.</string>
+    <string name="notwinstone">Currently, There is no any Twin Stone.</string>
+    <string name="no_stone">Currently, We don\'t have any Diamond.</string>
+    <string name="no_criteria_stone">Currently, We Do not have any Stone as per your Criteria.</string>
+    <string name="no_dealofday">Currently, There is no deal of the day.</string>
+
+
+    <string name="no_Fancy_stone">Currently, There is no any Fancy Stone.</string>
+    <string name="no_confirmation_stone">Currently, There is no Purchased stone.</string>
+    <string name="nonotification">Currently, There is no any Notifications.</string>
+    <string name="no_my_confirmation">You have no Confirmations!!</string>
+
+    <string name="add_basket_error">Operation Failed !! to add your stones in to your basket</string>
+    <string name="add_basket_success">The Selected Stones have been successfully Added to your Cart. However, You can Review your Selected Stones in “My Shopping Cart”.</string>
+    <string name="great">Great!</string>
+    <string name="remove_basket_success">The Selected Stone(s) Have been Successfully removed from the list.</string>
+    <string name="print_success">Successfully Printed</string>
+    <string name="mail_success">Mail Successfully Sent</string>
+
+    <string name="mail_failed">Operation Failed !! to send Email for your stones</string>
+    <string name="confirmation_failed">Operation Failed !! to send confirmation for your stones</string>
+    <string name="confirmation_success">Your stone has been Confirmed!!</string>
+    <string name="validate_email">Your Email should be in proper format..!!</string>
+    <string name="add_ddc_success">Successfully added to DDC</string>
+    <string name="add_ddc_failed">Operation Failed !! to add your stones in to your DDC</string>
+
+    <string name="remove_ddc_failed">Operation Failed !! to remove your stones in to your DDC.</string>
+    <string name="remove_ddc_success">The Selected Stone(s) Have been Successfully removed from the list.</string>
+
+    <string name="remove_basket_failed">Operation Failed !! to remove your stones from your Basket.</string>
+    <string name="ask_for_confirmation">Are You Sure to Confirm Stone ?</string>
+    <string name="ask_for_removefromcart">Do you want to remove the selected stone/s from Cart?</string>
+    <string name="login_first_msg">You have to login first..</string>
+    <string name="quick_serach">Quick Select</string>
+    <string name="total_depth">Total Depth(%)</string>
+    <string name="diam_max_n_width">Diam Max (width)</string>
+    <string name="T_black">T.Black</string>
+    <string name="S_black">S.Black</string>
+
+    <string name="diam_min_n_length">Length</string>
+    <string name="diam_max_width">Width</string>
+    <string name="crn">CRN</string>
+    <string name="pv">PV</string>
+    <string name="tableOpen">Table</string>
+
+    <string name="open">Open</string>
+    <string name="disc">Disc(%)</string>
+    <string name="rate_ct">Rate/Ct</string>
+
+    <!--FONT ICON-->
+
+    <string name="Radd_font">a</string>
+    <string name="Rall_font">b</string>
+    <string name="Rconfirm_font">e</string>
+    <string name="Rdelete_font">g</string>
+    <string name="Rfancy_font">j</string>
+    <string name="Rdownload_name_font">h</string>
+    <string name="Rshare_text_font">y</string>
+    <string name="Rmail_font">i</string>
+    <string name="Rimage_font">k</string>
+    <string name="Rimage_name_font">l</string>
+    <string name="Rmovie_font">m</string>
+    <string name="Rmovie_name_font">n</string>
+    <string name="Rcart_font">o</string>
+    <string name="Rmypurchase_fint">q</string>
+    <string name="Rnewarrival_fint">r</string>
+    <string name="Rprint_fint">s</string>
+    <string name="Rremovecart_font">t</string>
+    <string name="Rreset_font">u</string>
+    <string name="Rtriple_ex_font">C</string>
+    <string name="Rtwinstone">D</string>
+    <string name="Rsearch_font">A</string>
+    <string name="RsaveSeacrch">v</string>
+    <string name="Rsearch_dim_font">x</string>
+    <string name="Rsavesearch_font">w</string>
+    <string name="Rwishlist_font">B</string>
+    <string name="Rcerti_text_font">F</string>
+    <string name="dis">Disc%</string>
+    <string name="to_depth">T.Depth(%)</string>
+    <string name="dia_meter">Diameter</string>
+    <string name="website">Website</string>
+    <string name="website_name">Website Name</string>
+    <string name="select_table">Select Table</string>
+    <string name="select_crn">Select CRN</string>
+    <string name="select_pv">Select PV</string>
+    <string name="select_to_carat">Select To Carat</string>
+    <string name="select_from_carat">Select From Carat</string>
+
+    <!--New Designe-->
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="our_products">Our Products</string>
+    <string name="login">Login</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!--Change Profile-->
+    <string name="change_profile">Change Profile</string>
+
+    <!--Profile-->
+    <string name="profile">Profile</string>
+
+    <!--Notification-->
+    <string name="notifications">My Notification</string>
+    <string name="viewstone">VIEW STONE</string>
+    <string name="font_date">y</string>
+    <string name="font_time">1</string>
+    <string name="d_ct1">$/Ct </string>
+    <string name="avg_disc">Avg.Disc</string>
+
+
+</resources>

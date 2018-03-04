@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:clickable="true">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/actv_thank_you"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_width_40"
+        android:gravity="center"
+        android:textColor="@color/golden"
+        android:background="@color/dashitemtext"
+        android:padding="@dimen/padding_margin_5"
+        android:textSize="@dimen/text_18"
+        android:visibility="visible" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/actv_sub_title"
+        style="@style/CommonTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_email"
+        android:textColor="@color/dashusername"
+        android:layout_marginTop="@dimen/padding_margin_5"
+        android:visibility="gone" />
+
+    <DatePicker
+        android:id="@+id/dp_date_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:calendarViewShown="true"
+        android:foregroundGravity="center"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_margin_10"
+        android:gravity="center">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/actv_error_string"
+            style="@style/CommonTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_margin_10"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:lineSpacingExtra="@dimen/padding_margin_5"
+            android:layout_gravity="center"
+            android:textColor="@color/dashitemtext"/>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/acet_email"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_width_30"
+            android:background="@drawable/edit_box_registration"
+            android:inputType="textEmailAddress"
+            android:lines="1"
+            android:maxLines="3"
+            android:textSize="@dimen/text_15"
+            android:textColor="@color/dashitemtext"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/padding_margin_15"
+            android:layout_marginLeft="@dimen/padding_margin_15"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/padding_margin_10"
+        android:background="@color/dashitemtext" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_width_40"
+        android:gravity="center"
+        android:minHeight="@dimen/height_width_40"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/acbtn_dialog_ok"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_selector"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textColor="@color/logintext"
+            android:textSize="@dimen/text_16" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/acbtn_delete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_selector"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/logintext"
+            android:textSize="@dimen/text_16"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</LinearLayout>

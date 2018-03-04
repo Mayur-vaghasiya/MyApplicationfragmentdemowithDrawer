@@ -1,0 +1,513 @@
+<resources>
+
+    <attr format="string" name="fontPath"/>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:actionMenuTextColor">@android:color/background_light</item>
+        <!-- Enable these below if you want clicking icons to trigger a ripple effect -->
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="selectableItemBackgroundBorderless">?android:selectableItemBackground</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@android:color/background_light</item>
+    </style>
+
+    <!--==-->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="sViewBackgroundBorderless">
+        <item name="android:background">@drawable/selector_view</item>
+    </style>
+
+    <style name="sViewBackground">
+        <item name="android:background">@drawable/selector_view</item>
+    </style>
+
+    <style name="ivCommon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@drawable/selector_view</item>
+    </style>
+<!--===-->
+
+    <!--Created by Kanika 2 Feb-->
+
+    <style name="vertical_deviderTab">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/resulttitle</item>
+    </style>
+
+    <style name="horizontal_deviderTab">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/resulttitle</item>
+    </style>
+    <!--Dialog use  Created by Kanika 28 jan-->
+    <style name="ResultCommonTextStyletab" parent="android:TextAppearance.DeviceDefault.Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/resulttext</item>
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!--// Create by Kanika 28Jan-->
+    <style name="CommonLinearlayouttab">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:background">@color/shapbackcolor</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingTop">@dimen/padding_margin_5</item>
+        <item name="android:paddingBottom">@dimen/padding_margin_5</item>
+        <item name="android:paddingLeft">@dimen/padding_margin_15</item>
+        <item name="android:paddingRight">@dimen/padding_margin_15</item>
+
+    </style>
+
+    <!--TAB style-->
+    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">@dimen/text_18</item>
+
+    </style>
+
+
+    <!--login text lable-->
+    <style name="LoginTextStyle" parent="android:TextAppearance.DeviceDefault.Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_18</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">@dimen/padding_margin_5</item>
+        <item name="android:textColor">@color/logintext</item>
+        <item name="android:background">@color/view_color</item>
+    </style>
+
+
+    <!--Diamond Shap Layout-->
+    <style name="FontTextStyle" parent="android:TextAppearance.DeviceDefault.Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/text_40</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/shapiconcolor</item>
+    </style>
+
+    <!--Created by Kanika 30 Jan-->
+
+    <!--Diamond Shap Layout-->
+    <style name="FontTextStyleTab" parent="android:TextAppearance.DeviceDefault.Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/text_50</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/shapiconcolor</item>
+    </style>
+
+
+    <!--Diamond Shap only Text-->
+    <style name="TextStyle" parent="android:TextAppearance.DeviceDefault.Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_12</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/padding_margin_10</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/dimicontextcolor</item>
+    </style>
+
+
+    <!--Created BY Kanika 30 Jan Diamond Shap only Text-->
+    <style name="TextStyleTab" parent="android:TextAppearance.DeviceDefault.Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_15</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/padding_margin_10</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/dimicontextcolor</item>
+    </style>
+
+    <!--Dialog use-->
+    <style name="CommonTextStyle" parent="android:TextAppearance.DeviceDefault.Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/text_14</item>
+    </style>
+
+    <!--Regis use-->
+    <style name="CommonTextStyleregistration" parent="android:TextAppearance.DeviceDefault.Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/dashitemtext</item>
+        <item name="android:textSize">@dimen/text_14</item>
+    </style>
+
+
+
+    <!--Regis use Created by Kanika 31 Janu-->
+    <style name="CommonTextStyleregistrationTab" parent="android:TextAppearance.DeviceDefault.Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/dashitemtext</item>
+        <item name="android:textSize">@dimen/text_17</item>
+    </style>
+
+    <!--recycler adpter -->
+    <style name="CommonrecTextStyle" parent="android:TextAppearance.DeviceDefault.Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/shapiconcolor</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/text_14</item>
+    </style>
+
+    <!--Search text -->
+    <style name="searchTextStyle" parent="android:TextAppearance.DeviceDefault.Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/divider_selectornew</item>
+        <item name="android:textSize">@dimen/text_14</item>
+    </style>
+
+    <!--Dropdown search-->
+    <style name="CommonTextdropStyle" parent="android:TextAppearance.DeviceDefault.Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/logintext</item>
+        <item name="android:textSize">@dimen/text_14</item>
+    </style>
+
+
+
+
+    <!--toolbar title Created by Kanika 31 Jan-->
+    <style name="Toolbar.TitleTexttab" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/text_28</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/golden</item>
+    </style>
+
+    <!--Diamond Search edit text-->
+    <style name="EdittextStyle" parent="Base.V7.Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/text_15</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingTop">@dimen/padding_margin_3</item>
+        <item name="android:paddingBottom">@dimen/padding_margin_3</item>
+        <item name="android:paddingLeft">@dimen/padding_margin_10</item>
+        <item name="android:paddingRight">@dimen/padding_margin_10</item>
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">@dimen/height_width_36</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/dashbackground</item>
+        <item name="android:textColor">@color/logintext</item>
+        <item name="android:textColorHint">@color/hint</item>
+
+    </style>
+    <!--Registration-->
+    <style name="EdittextStyleRegister" parent="Base.V7.Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/padding_margin_14</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingTop">@dimen/padding_margin_3</item>
+        <item name="android:paddingBottom">@dimen/padding_margin_3</item>
+        <item name="android:paddingLeft">@dimen/padding_margin_10</item>
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">@dimen/height_width_36</item>
+        <item name="android:drawableRight">@drawable/ic_editnew</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/edit_box_registration</item>
+        <item name="android:textColor">@color/dashitemtext</item>
+        <item name="android:textColorHint">@color/hint</item>
+
+    </style>
+
+    <style name="EdittextStyleRegistersecond" parent="Base.V7.Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/padding_margin_14</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingTop">@dimen/padding_margin_3</item>
+        <item name="android:paddingBottom">@dimen/padding_margin_3</item>
+        <item name="android:paddingLeft">@dimen/padding_margin_10</item>
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">@dimen/height_width_36</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/edit_box_registration</item>
+        <item name="android:textColor">@color/loginedittext</item>
+        <item name="android:textColorHint">@color/hint</item>
+    </style>
+
+    <!--Dimaond detail -->
+    <style name="CommonTextStyledimdetailsdata" parent="android:TextAppearance.DeviceDefault.Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/hit</item>
+        <item name="android:textSize">@dimen/text_14</item>
+        <item name="android:paddingLeft">@dimen/padding_margin_3</item>
+        <item name="android:paddingRight">@dimen/padding_margin_3</item>
+        <item name="android:paddingTop">@dimen/padding_margin_3</item>
+        <item name="android:paddingBottom">@dimen/padding_margin_3</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:freezesText">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:scrollHorizontally">true</item>
+
+    </style>
+
+    <!--// Create by Kanika 1 Feb-->
+
+    <!--Dialog use-->
+    <style name="ResultheaderCommonStyleTab7" parent="android:TextAppearance.DeviceDefault.Widget.TextView">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/resulttitle</item>
+        <item name="android:textSize">@dimen/font_12</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <!--Dimaond detail Created by Kanika 31 jan-->
+    <style name="CommonTextStyledimdetailsdataTab" parent="android:TextAppearance.DeviceDefault.Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/hit</item>
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="android:paddingLeft">@dimen/padding_margin_3</item>
+        <item name="android:paddingRight">@dimen/padding_margin_3</item>
+        <item name="android:paddingTop">@dimen/padding_margin_3</item>
+        <item name="android:paddingBottom">@dimen/padding_margin_3</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:freezesText">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:scrollHorizontally">true</item>
+
+    </style>
+
+    <style name="confirm_list">
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:textColor">@color/logintext</item>
+        <item name="android:textSize">@dimen/text_12</item>
+        <item name="android:gravity">left|center</item>
+    </style>
+
+    <!-- Created by Kanika -31 Janu-->
+    <style name="confirm_listTab">
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:textColor">@color/logintext</item>
+        <item name="android:textSize">@dimen/text_17</item>
+        <item name="android:gravity">left|center</item>
+    </style>
+
+
+
+    <style name="vertical_devider">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/dashdivider</item>
+    </style>
+
+    <style name="horizontal_devider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/dashdivider</item>
+    </style>
+
+    <style name="PopupWindowAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_show</item>
+        <item name="android:windowExitAnimation">@anim/popup_hide</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="WindowAnimation" parent="Animation.AppCompat.Dialog">
+        <item name="android:windowEnterAnimation">@anim/popup_show</item>
+        <item name="android:windowExitAnimation">@anim/popup_hide</item>
+    </style>
+
+    <style name="DialogAnimation" parent="Animation.AppCompat.Dialog">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>=
+    </style>
+
+
+    <style name="TextAppearance.Fontbold" parent="android:TextAppearance">
+        <!-- Custom Attr-->
+        <item name="fontPath">AvenirNextLTPro-Bold_1.otf</item>
+    </style>
+
+    <style name="TextAppearance.FontPath" parent="android:TextAppearance">
+        <!-- Custom Attr-->
+        <!--<item name="fontPath">AvenirNextLTPro-Bold_1.otf</item>-->
+    </style>
+
+    <style name="TextAppearance.FontSbold" parent="android:TextAppearance">
+        <!-- Custom Attr-->
+        <item name="fontPath">MyriadPro-Semibold.otf</item>
+    </style>
+
+    <!--New Designe-->
+
+    <style name="NewresultSummrytitle" parent="android:TextAppearance.DeviceDefault.Widget.TextView">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/spalshfont</item>
+        <item name="android:textSize">@dimen/text_15</item>
+    </style>
+
+
+    <!--Dialog use-->
+    <style name="ResultCommonTextStyle" parent="android:TextAppearance.DeviceDefault.Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/resulttext</item>
+        <item name="android:textSize">@dimen/text_13</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+
+    <!--Dialog use-->
+    <style name="ResultheaderCommonStyle" parent="android:TextAppearance.DeviceDefault.Widget.TextView">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/resulttitle</item>
+        <item name="android:textSize">@dimen/font_9</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+
+
+    <!--Dialog use Created by Kanika 31 Jan-->
+    <style name="ResultheaderCommonStyleTab" parent="android:TextAppearance.DeviceDefault.Widget.TextView">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/resulttitle</item>
+        <item name="android:textSize">@dimen/font_11</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!--// Create by Dhaval 22Nov-->
+    <style name="CommonLinearlayout">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:background">@color/shapbackcolor</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingTop">@dimen/padding_margin_2</item>
+        <item name="android:paddingBottom">@dimen/padding_margin_2</item>
+        <item name="android:paddingLeft">@dimen/padding_margin_12</item>
+        <item name="android:paddingRight">@dimen/padding_margin_12</item>
+
+    </style>
+
+    <!--// Create by Dhaval 22Nov-->
+    <style name="stylefor3xevg3ex">
+
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/height_width_32</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">#3b3832</item>
+        <item name="android:gravity">center</item>
+
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_14</item>
+
+    </style>
+
+    <!--<item name="android:background">@drawable/diamond_edittext_square_boarder</item>-->
+    <!--Diamond Shap Layout-->
+    <style name="FontTextStylenew" parent="android:TextAppearance.DeviceDefault.Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/text_40</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/shapiconcolor</item>
+    </style>
+
+    <!--Dimdetail download share-->
+    <style name="Style_down_share" parent="android:TextAppearance.DeviceDefault.Widget.TextView">
+        <item name="android:layout_width">@dimen/height_width_32</item>
+        <item name="android:layout_height">@dimen/height_width_32</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/padding_margin_8</item>
+        <item name="android:layout_marginTop">@dimen/padding_margin_8</item>
+    </style>
+
+    <!--Dimdetail dis&percart-->
+    <style name="Style_discandcarat" parent="android:TextAppearance.DeviceDefault.Widget.TextView">
+        <item name="android:layout_width">@dimen/height_width_90</item>
+        <item name="android:layout_height">@dimen/height_width_36</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/golden</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+
+    <!--Dim Detail text -->
+    <style name="dimdetailTextStyle" parent="android:TextAppearance.DeviceDefault.Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/divider_selectornew</item>
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+
+
+
+</resources>

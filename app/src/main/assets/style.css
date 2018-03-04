@@ -1,0 +1,178 @@
+@font-face {
+  font-family: 'PaladiyaApp';
+  src:  url('fonts/PaladiyaApp.eot?6p2oii');
+  src:  url('fonts/PaladiyaApp.eot?6p2oii#iefix') format('embedded-opentype'),
+    url('fonts/PaladiyaApp.ttf?6p2oii') format('truetype'),
+    url('fonts/PaladiyaApp.woff?6p2oii') format('woff'),
+    url('fonts/PaladiyaApp.svg?6p2oii#PaladiyaApp') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.unit, .liga, .mls
+{
+    display:none;
+}
+fieldset 
+{
+    border:0px;
+    padding:0px;
+    margin:0px;
+}
+.unitRight, .pbs 
+{
+    border:0px;
+    font-size:36px;
+}
+.glyph
+{
+    width:100px; float:left;
+    margin-bottom:50px;
+}
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'PaladiyaApp' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ico_add_crart:before {
+  content: "\61";
+}
+.icon-ico_back:before {
+  content: "\62";
+}
+.icon-ico_camera:before {
+  content: "\63";
+}
+.icon-ico_certificate:before {
+  content: "\64";
+}
+.icon-ico_change_password:before {
+  content: "\65";
+}
+.icon-ico_check:before {
+  content: "\66";
+}
+.icon-ico_confirm_stone:before {
+  content: "\67";
+}
+.icon-ico_diamond_download:before {
+  content: "\68";
+}
+.icon-ico_edit:before {
+  content: "\69";
+}
+.icon-ico_export_excel:before {
+  content: "\6a";
+}
+.icon-ico_forgot_password:before {
+  content: "\6b";
+}
+.icon-ico_h_and_a:before {
+  content: "\6c";
+}
+.icon-ico_logout:before {
+  content: "\6d";
+}
+.icon-ico_menu:before {
+  content: "\6e";
+}
+.icon-ico_menu_1:before {
+  content: "\6f";
+}
+.icon-ico_movie:before {
+  content: "\70";
+}
+.icon-ico_my_confirmation:before {
+  content: "\71";
+}
+.icon-ico_my_profile:before {
+  content: "\72";
+}
+.icon-ico_password:before {
+  content: "\73";
+}
+.icon-ico_remove_crart:before {
+  content: "\74";
+}
+.icon-ico_remove_save_search:before {
+  content: "\75";
+}
+.icon-ico_reset:before {
+  content: "\76";
+}
+.icon-ico_save_search:before {
+  content: "\77";
+}
+.icon-ico_saved_search:before {
+  content: "\78";
+}
+.icon-ico_search_diamond:before {
+  content: "\79";
+}
+.icon-ico_shape_all:before {
+  content: "\41";
+}
+.icon-ico_shape_cushion:before {
+  content: "\42";
+}
+.icon-ico_shape_emerald:before {
+  content: "\43";
+}
+.icon-ico_shape_heart:before {
+  content: "\44";
+}
+.icon-ico_shape_marquise:before {
+  content: "\45";
+}
+.icon-ico_shape_oval:before {
+  content: "\46";
+}
+.icon-ico_shape_pear:before {
+  content: "\47";
+}
+.icon-ico_shape_princess:before {
+  content: "\48";
+}
+.icon-ico_shape_round:before {
+  content: "\49";
+}
+.icon-ico_shape_sq_radiant:before {
+  content: "\4a";
+}
+.icon-ico_share:before {
+  content: "\7a";
+}
+.icon-ico_specific_search:before {
+  content: "\4f";
+}
+.icon-ico_submit:before {
+  content: "\50";
+}
+.icon-ico_twin_stones:before {
+  content: "\51";
+}
+.icon-ico_uncheck:before {
+  content: "\52";
+}
+.icon-ico_user:before {
+  content: "\53";
+}
+.icon-ico_verify_certi:before {
+  content: "\54";
+}
+.icon-ico_view_cart:before {
+  content: "\55";
+}
+.icon-ico_view_confirm_stone:before {
+  content: "\56";
+}
+
